@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    
+    background-color: black!important;
+    font-family: 'Roboto', sans-serif;
+}
+.mainbody{
+    margin-left: 15vw!important;
+    margin-right: 15vw!important;
+    
+    padding-left: 12vh!important;
+    padding-right: 12vh!important;
+   
+}
+.textColor{
+    color: antiquewhite,!important;
+}
+.mainBanner{
+    height: 100vh!important;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),url("images/pexels-anna-shvets-5953591.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: antiquewhite!important;
+   
+   
+    
+}
+.DineClass{
+    font-size: 3.4rem!important;
+    font-weight: 900!important;
+    color: antiquewhite!important;
+}
+.myBtn{
+    color: #004200e6!important;
+    border: none!important;
+    font-weight: 600!important;
+    font-size: 1.2rem;
+    background-color: antiquewhite!important;
+
+}
+.myBtn:hover{
+    background-color:#0a160ae6!important ;
+    color: antiquewhite!important;
+    transition: 0.8s;
+}
+/*css for menu section*/
+.menuSection{
+    background-color: antiquewhite!important;
+   
+    
+}
+.menuSection .col-6{
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+}
+.card img{
+    height: 35vh!important;
+   
+    
+    border-radius: 20px!important;
+    
+}
+.card{
+    background-color: antiquewhite!important;
+    
+
+}
+.card-body{
+    
+    padding-left: 0px!important;
+    
+}
+.textClass{
+    color:#004200e6!important ;
+}
+.hoverClass:hover{
+    cursor: pointer!important;
+}
+
+
+/*css for thirdsegment*/
+.thirdSegment1{
+    height: 40vh!important;
+    background-color:#004200e6!important;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+    color: antiquewhite!important;
+     
+}
+.myBtn2{
+    color: antiquewhite!important;
+    background-color: #004200e6!important;
+    border: 1px solid antiquewhite!important;
+    border-radius: 10px!important;
+    font-weight: bolder!important;
+    
+}
+.myBtn2:hover{ cursor: pointer;
+    color: #004200e6!important;
+    background-color: antiquewhite!important;
+    border: 1px solid #004200e6!important;
+    border-radius: 10px!important;
+    font-weight: bolder!important;
+    transition: 0.8s;
+
+}
+.thirdSegment2{
+    height: 20vh!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite!important;
+}
+.thirdSegment2 p{
+    margin-bottom: 0px!important;
+}
+.thirdSegment2 a{
+    color: antiquewhite!important;
+}
+
+
+/*Footer fourthsegment*/
+.fourthSegment{
+    background-color: antiquewhite!important;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+}
+.fa-square-facebook,.fa-twitter,.fa-instagram:hover{
+    cursor: pointer;
+    
+}
+.myFooterFont{
+    font-size: 0.7rem!important;
+}
+.getItOnGooglePlayLogo{
+    height: 2.4rem!important;
+    width: 8rem!important;
+    
+    
+}
+
+
+/*css for custom scroll bar*/
+/*styling for scroll*/
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+   
+    /* width of the entire scrollbar */
+    transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-track {
+    background:antiquewhite;
+    /* color of the tracking area */
+    transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0a160ae6;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid antiquewhite;
+    /* creates padding around scroll thumb */
+    transition: all .15s ease-in-out 0s;
+}
+
+/*scroll for mozilla firefox*/
+body {
+    scrollbar-width: 1rem;
+    /* "auto" or "thin" */
+    scrollbar-color: antiquewhite #0a160ae6;
+    /* scroll thumb and track */
+    transition: all .15s ease-in-out 0s;
+}
+
+
+/*css for back to top btn*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: antiquewhite; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-weight: 900;
+  }
+  
+  #myBtn:hover {
+    background-color: antiquewhite; /* Add a antiquewhite background on hover */
+    color: red!important;
+}

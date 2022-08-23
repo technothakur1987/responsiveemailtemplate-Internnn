@@ -1,0 +1,10 @@
+...This is a sample email promotional template with embedded bootstrap5. 
+    therefore its completely responsive.Favicon and title has been copied
+    from main website.
+...Roboto fonts is used to make the font look something diffrent
+...Custom classes used to meet the requirement of the assignement with 
+    separate css file for mediaquery and custom css.
+...Images used are in webp format so that loading time can be reduced.
+...With this there is a custom scroll bar made also made for diffrent browser 
+    with (back to top) btn used ..initially is hidden but when user scroll below
+    20px it appears, and when clickd it takes to top of the page ..
